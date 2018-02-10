@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-image: url("images/city.jpg");
+
+}
+div {
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #F7EBEC;
+    border-radius: 1em;
+    color: #1B264F;
+
+}
+
+#myPhoto{
+  width: 300px;
+  height: auto;
+  border: 5px;
+}
+
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    body {
+        background-color: #fff;
+    }
+    div {
+        width: auto;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 1em;
+    }
+  }
