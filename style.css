@@ -45,6 +45,16 @@ h1{
   background-size: contain;
 }
 
+.myart{
+  width: 600px;
+  margin: 5em auto;
+  padding: 50px;
+  background-color: #F7EBEC;
+  border-radius: 1em;
+  color: #1B264F;
+  background-size: contain;
+}
+
 #myPhoto{
   width: 400px;
   height: auto;
